@@ -69,7 +69,6 @@ content:
   #        This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
   #      description: | # this will include new lines to allow paragraphs
   #        I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Professional Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -96,15 +95,15 @@ content:
             - Design experiments to monitor consistency of model performance and identify areas to improve.
             - Work closely with customer segments team to understand the business, use data across multiple sources to generate insights, drive customer engagement, product usage and acquisition.
             - Received CEO letter of performance recognition (2020)
-#       - layout: left
-#         title: Prudential Assurance Company Singapore
-#         sub_title: Data Scientist
-#         caption: March 2018 - November 2018
-#         description: | # this will include new lines to allow paragraphs
-#            - Implemented customer segmentation engine that group customers into pre-defined microsegments.
-#            - Implemented next best offer engine for cross selling of insurance products.
-#            - Developed propensity to claim model to improve STP rate for underwriting.
-#            - Evaluated and improved on existing predictive models for E-claims project.
+       - layout: left
+         title: Prudential Assurance Company Singapore
+         sub_title: Data Scientist
+         caption: March 2018 - November 2018
+         description: | # this will include new lines to allow paragraphs
+            - Implemented customer segmentation engine that group customers into pre-defined microsegments.
+            - Implemented next best offer engine for cross selling of insurance products.
+            - Developed propensity to claim model to improve STP rate for underwriting.
+            - Evaluated and improved on existing predictive models for E-claims project.
 #        - layout: left
 #          title: Development Bank of Singapore (DBS)
 #          sub_title: Associate, Business Analyst
