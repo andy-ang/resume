@@ -76,7 +76,7 @@ content:
         title: Ministry of Defence (MINDEF)
         #link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Data Scientist
+        sub_title: <span style="color:#EBBD14">Data Scientist</span>
         caption: April 2022 - Present
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -84,7 +84,7 @@ content:
             - Deliver data science solutions to enhance MINDEF/SAF’s decision making in policy, operations and resource management.
       - layout: left
         title: United Overseas Bank (UOB)
-        sub_title: Vice President, Data Scientist
+        sub_title: <span style="color:#EBBD14">Vice President, Data Scientist</span>
         caption: November 2018 - April 2022
         description: | # this will include new lines to allow paragraphs
             - Project lead for several data science projects, most notably:
@@ -97,7 +97,7 @@ content:
             - Received CEO letter of performance recognition (2020).
       - layout: left
         title: Prudential Assurance Company Singapore
-        sub_title: Data Scientist
+        sub_title: <span style="color:#EBBD14">Data Scientist</span>
         caption: March 2018 - November 2018
         description: | # this will include new lines to allow paragraphs
             - Implemented customer segmentation engine that group customers into pre-defined microsegments.
@@ -106,7 +106,7 @@ content:
             - Evaluated and improved on existing predictive models for E-claims project.
       - layout: left
         title: Development Bank of Singapore (DBS)
-        sub_title: Associate, Business Analyst
+        sub_title: <span style="color:#EBBD14">Associate, Business Analyst</span>
         caption: August 2016 - March 2018
         description: | # this will include new lines to allow paragraphs
             - Developed wealth propensity model for identifying potential investors.
@@ -116,26 +116,24 @@ content:
             - Performed descriptive analysis and generated periodic statistical reports for management decision-making.
       - layout: left
         title: Singapore Institute of Manufacturing Technology (SIMTech | A*STAR)
-        sub_title: Specialist
+        sub_title: <span style="color:#EBBD14">Specialist</span>
         caption: October 2013 - July 2016
         description: | # this will include new lines to allow paragraphs
             - Provide text-mining solutions for Antuit-SIMTech Supply Chain Analytics Lab
             - Research in data mining for supply chain and manufacturing systems
   
   - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content: 
-      - layout: top-middle
-        title: National University of Singapore (NUS) <span style="color:#EBBD14">Master of Technology in Knowledge Engineering (Jan 2015 – Jun 2017)</span>
-      - layout: top-middle
-        title: National University of Singapore (NUS) <span style="color:#EBBD14">Bachelor of Science in Statistics (Aug 2010 – Jun 2013)</span>
+    layout: text # Type of content section (list/text)
+    content: |
+      - National University of Singapore (NUS) <span style="color:#EBBD14">Master of Technology in Knowledge Engineering (Jan 2015 – Jun 2017)</span>
+      - National University of Singapore (NUS) <span style="color:#EBBD14">Bachelor of Science in Statistics (Aug 2010 – Jun 2013)</span>
   
   - title: Publications # Title for the section
-    layout: list # Type of content section (list/text)
+    layout: text # Type of content section (list/text)
     content: # this will include new lines to allow paragraphs
-      - Ang, J.L., Ong, B.Y. and Tan, P.S., 2015, December. An application of text mining to understand the productivity challenges in Singapore. In 2015 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM) (pp. 595-600). IEEE. (Nominated Best Paper Award)
-      - Goh, G.S., Ang, A.J. and Zhang, A.N., 2016, December. Optimizing performance of sentiment analysis through design of experiments. In 2016 IEEE International Conference on Big Data (Big Data) (pp. 3737-3742). IEEE.
-      - Bhullar, A.S., Gan, C.W., Ang, A.J., Ma, B., Lim, R.Y. and Toh, M.H., 2014, December. Operational excellence frameworks—Case studies and applicability to SMEs in Singapore. In 2014 IEEE International Conference on Industrial Engineering and Engineering Management (pp. 667-671). IEEE.
+      - <span style="color:#EBBD14">Ang, J.L.</span>, Ong, B.Y. and Tan, P.S., 2015, December. An application of text mining to understand the productivity challenges in Singapore. In 2015 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM) (pp. 595-600). IEEE. <span style="color:#EBBD14">(Nominated Best Paper Award)</span>
+      - Goh, G.S., <span style="color:#EBBD14">Ang, A.J.</span> and Zhang, A.N., 2016, December. Optimizing performance of sentiment analysis through design of experiments. In 2016 IEEE International Conference on Big Data (Big Data) (pp. 3737-3742). IEEE.
+      - Bhullar, A.S., Gan, C.W., <span style="color:#EBBD14">Ang, A.J.</span>, Ma, B., Lim, R.Y. and Toh, M.H., 2014, December. Operational excellence frameworks—Case studies and applicability to SMEs in Singapore. In 2014 IEEE International Conference on Industrial Engineering and Engineering Management (pp. 667-671). IEEE.
          
 # Footer
 footer_show_references: false
