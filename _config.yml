@@ -109,7 +109,7 @@ content:
         sub_title: Associate, Business Analyst
         caption: August 2016 - March 2018
         description: | # this will include new lines to allow paragraphs
-            - <span style="color:blue">Developed wealth propensity model for identifying potential investors.</span>
+            - <span style="color:#edea28">Developed wealth propensity model for identifying potential investors.</span>
             - Worked closely with product teams on various campaign initiatives, using  data to generate insights, drive product usage and acquisition.
             - Developed campaign tracking methodology to evaluate the effectiveness of different targeting criteria for each campaign.
             - Consolidated and prepared data into a cohesive and comprehensible form.
