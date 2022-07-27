@@ -9,8 +9,6 @@ version: 2
 name: Andy Ang JL
 title: Data Scientist
 email: andyangjunlong@outlook.sg
-contact: +65 94749274
-location: Singapore
 #website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
@@ -127,9 +125,15 @@ content:
   - title: Education # Title for the section
     layout: text # Type of content section (list/text)
     content: | # this will include new lines to allow paragraphs
-      National University of Singapore (NUS) Master of Technology in Knowledge Engineering (Jan 2015 – Jun 2017)
-      National University of Singapore (NUS) Bachelor of Science in Statistics (Aug 2010 – Jun 2013)
-      
+      - National University of Singapore (NUS) Master of Technology in Knowledge Engineering (Jan 2015 – Jun 2017)
+      - National University of Singapore (NUS) Bachelor of Science in Statistics (Aug 2010 – Jun 2013)
+  
+  - title: Publications # Title for the section
+    layout: text # Type of content section (list/text)
+    content: | # this will include new lines to allow paragraphs
+      - National University of Singapore (NUS) Master of Technology in Knowledge Engineering (Jan 2015 – Jun 2017)
+      - National University of Singapore (NUS) Bachelor of Science in Statistics (Aug 2010 – Jun 2013)
+          
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
