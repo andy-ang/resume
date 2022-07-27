@@ -119,8 +119,8 @@ content:
         sub_title: <span style="color:#EBBD14">Specialist</span>
         caption: October 2013 - July 2016
         description: | # this will include new lines to allow paragraphs
-            - Provide text-mining solutions for Antuit-SIMTech Supply Chain Analytics Lab
-            - Research in data mining for supply chain and manufacturing systems
+            - Provide text-mining solutions for Antuit-SIMTech Supply Chain Analytics Lab.
+            - Research in data mining for supply chain and manufacturing systems.
   
   - title: Education # Title for the section
     layout: text # Type of content section (list/text)
