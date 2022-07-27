@@ -109,13 +109,13 @@ content:
         sub_title: Associate, Business Analyst
         caption: August 2016 - March 2018
         description: | # this will include new lines to allow paragraphs
-            - Developed wealth propensity model for identifying potential investors.
+            - <span style="color:blue">Developed wealth propensity model for identifying potential investors.</span>
             - Worked closely with product teams on various campaign initiatives, using  data to generate insights, drive product usage and acquisition.
             - Developed campaign tracking methodology to evaluate the effectiveness of different targeting criteria for each campaign.
             - Consolidated and prepared data into a cohesive and comprehensible form.
             - Performed descriptive analysis and generated periodic statistical reports for management decision-making.
       - layout: left
-        title: Agency for Science, Technology and Research (A*STAR) | Singapore Institute of Manufacturing Technology (SIMTech)
+        title: Singapore Institute of Manufacturing Technology (SIMTech | A*STAR)
         sub_title: Specialist
         caption: October 2013 - July 2016
         description: | # this will include new lines to allow paragraphs
