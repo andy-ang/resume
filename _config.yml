@@ -123,14 +123,14 @@ content:
             - Research in data mining for supply chain and manufacturing systems
   
   - title: Education # Title for the section
-    layout: text # Type of content section (list/text)
-    content: | # this will include new lines to allow paragraphs
+    layout: list # Type of content section (list/text)
+    content: # this will include new lines to allow paragraphs
       - National University of Singapore (NUS) Master of Technology in Knowledge Engineering (Jan 2015 – Jun 2017)
       - National University of Singapore (NUS) Bachelor of Science in Statistics (Aug 2010 – Jun 2013)
   
   - title: Publications # Title for the section
-    layout: text # Type of content section (list/text)
-    content: | # this will include new lines to allow paragraphs
+    layout: list # Type of content section (list/text)
+    content: # this will include new lines to allow paragraphs
       - Ang, J.L., Ong, B.Y. and Tan, P.S., 2015, December. An application of text mining to understand the productivity challenges in Singapore. In 2015 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM) (pp. 595-600). IEEE. (Nominated Best Paper Award)
       - Goh, G.S., Ang, A.J. and Zhang, A.N., 2016, December. Optimizing performance of sentiment analysis through design of experiments. In 2016 IEEE International Conference on Big Data (Big Data) (pp. 3737-3742). IEEE.
       - Bhullar, A.S., Gan, C.W., Ang, A.J., Ma, B., Lim, R.Y. and Toh, M.H., 2014, December. Operational excellence frameworks—Case studies and applicability to SMEs in Singapore. In 2014 IEEE International Conference on Industrial Engineering and Engineering Management (pp. 667-671). IEEE.
