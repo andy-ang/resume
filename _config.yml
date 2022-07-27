@@ -100,7 +100,7 @@ content:
          sub_title: Data Scientist
          caption: March 2018 - November 2018
          description: | # this will include new lines to allow paragraphs
-            - Implemented customer segmentation engine that group customers into pre-defined microsegments.
+#            - Implemented customer segmentation engine that group customers into pre-defined microsegments.
             - Implemented next best offer engine for cross selling of insurance products.
             - Developed propensity to claim model to improve STP rate for underwriting.
             - Evaluated and improved on existing predictive models for E-claims project.
