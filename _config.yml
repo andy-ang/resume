@@ -109,7 +109,7 @@ content:
         sub_title: Associate, Business Analyst
         caption: August 2016 - March 2018
         description: | # this will include new lines to allow paragraphs
-            - <span style="color:#edea28">Developed wealth propensity model for identifying potential investors.</span>
+            - Developed wealth propensity model for identifying potential investors.
             - Worked closely with product teams on various campaign initiatives, using  data to generate insights, drive product usage and acquisition.
             - Developed campaign tracking methodology to evaluate the effectiveness of different targeting criteria for each campaign.
             - Consolidated and prepared data into a cohesive and comprehensible form.
@@ -124,9 +124,11 @@ content:
   
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
-    content: # this will include new lines to allow paragraphs
-      - National University of Singapore (NUS) Master of Technology in Knowledge Engineering (Jan 2015 – Jun 2017)
-      - National University of Singapore (NUS) Bachelor of Science in Statistics (Aug 2010 – Jun 2013)
+    content: 
+      - layout: top-middle
+        title: National University of Singapore (NUS) <span style="color:#EBBD14">Master of Technology in Knowledge Engineering (Jan 2015 – Jun 2017)</span>
+      - layout: top-middle
+        title: National University of Singapore (NUS) <span style="color:#EBBD14">Bachelor of Science in Statistics (Aug 2010 – Jun 2013)</span>
   
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
