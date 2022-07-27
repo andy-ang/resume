@@ -94,20 +94,25 @@ content:
             - Actively communicate machine learning concepts and intuitions, ensure analysis or model outputs are understood and useable.
             - Design experiments to monitor consistency of model performance and identify areas to improve.
             - Work closely with customer segments team to understand the business, use data across multiple sources to generate insights, drive customer engagement, product usage and acquisition.
-            - Received CEO letter of performance recognition (2020)
+            - Received CEO letter of performance recognition (2020).
       - layout: left
-        title: United Overseas Bank (UOB)
-        sub_title: Vice President, Data Scientist
-        caption: November 2018 - April 2022
+        title: Prudential Assurance Company Singapore
+        sub_title: Data Scientist
+        caption: March 2018 - November 2018
         description: | # this will include new lines to allow paragraphs
-            - Project lead for several data science projects, most notably:
-              - Development and implementation of wealth propensity model which increases conversion rates by 3.7 times and generates an incremental revenue of more than $13M.
-              - Development and implementation of content recommender which improves open rate by 2.6 times and click rate by 1.4 times.
-            - Developed and implemented wealth propensity model for UOB Thailand which increases conversion rates by 1.8 times.
-            - Actively communicate machine learning concepts and intuitions, ensure analysis or model outputs are understood and useable.
-            - Design experiments to monitor consistency of model performance and identify areas to improve.
-            - Work closely with customer segments team to understand the business, use data across multiple sources to generate insights, drive customer engagement, product usage and acquisition.
-            - Received CEO letter of performance recognition (2020)
+            - Implemented customer segmentation engine that group customers into pre-defined microsegments.
+            - Implemented next best offer engine for cross selling of insurance products.
+            - Developed propensity to claim model to improve STP rate for underwriting.
+            - Evaluated and improved on existing predictive models for E-claims project.
+      - layout: left
+        title: Prudential Assurance Company Singapore
+        sub_title: Data Scientist
+        caption: March 2018 - November 2018
+        description: | # this will include new lines to allow paragraphs
+            - Implemented customer segmentation engine that group customers into pre-defined microsegments.
+            - Implemented next best offer engine for cross selling of insurance products.
+            - Developed propensity to claim model to improve STP rate for underwriting.
+            - Evaluated and improved on existing predictive models for E-claims project.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
