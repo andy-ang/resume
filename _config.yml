@@ -124,11 +124,15 @@ content:
             - Research in data mining for supply chain and manufacturing systems.
   
   - title: Education # Title for the section
-    layout: text # Type of content section (list/text)
-    content: |
-      - National University of Singapore (NUS) <span style="color:#EBBD14">Master of Technology in Knowledge Engineering (Jan 2015 – Jun 2017)</span>
-      - National University of Singapore (NUS) <span style="color:#EBBD14">Bachelor of Science in Statistics (Aug 2010 – Jun 2013)</span>
-  
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-right
+        title: National University of Singapore (NUS)
+        sub_title: <span style="color:#EBBD14">Master of Technology in Knowledge Engineering</span>
+        caption: Jan 2015 – Jun 2017
+      #- National University of Singapore (NUS) <span style="color:#EBBD14">Master of Technology in Knowledge Engineering (Jan 2015 – Jun 2017)</span>
+      #- National University of Singapore (NUS) <span style="color:#EBBD14">Bachelor of Science in Statistics (Aug 2010 – Jun 2013)</span>
+      
   - title: Publications # Title for the section
     layout: text # Type of content section (list/text)
     content: | # this will include new lines to allow paragraphs
