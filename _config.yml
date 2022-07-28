@@ -110,16 +110,16 @@ content:
         sub_title: <span style="color:#EBBD14">Data Scientist</span>
         caption: March 2018 - November 2018
         description: | # this will include new lines to allow paragraphs
-            - Implemented customer segmentation engine that group customers into pre-defined microsegments.
-            - Implemented next best offer engine for cross selling of insurance products.
-            - Developed propensity to claim model to improve STP rate for underwriting.
+            - Implemented <span style="color:#EBBD14">customer segmentation engine</span> that group customers into pre-defined microsegments.
+            - Implemented <span style="color:#EBBD14">next best offer engine</span> for cross selling of insurance products.
+            - Developed <span style="color:#EBBD14">propensity to claim model</span> to improve STP rate for underwriting.
             - Evaluated and improved on existing predictive models for E-claims project.
       - layout: left
         title: Development Bank of Singapore (DBS)
         sub_title: <span style="color:#EBBD14">Associate, Business Analyst</span>
         caption: August 2016 - March 2018
         description: | # this will include new lines to allow paragraphs
-            - Developed wealth propensity model for identifying potential investors.
+            - Developed <span style="color:#EBBD14">wealth propensity model</span> for identifying potential investors.
             - Worked closely with product teams on various campaign initiatives, using  data to generate insights, drive product usage and acquisition.
             - Developed campaign tracking methodology to evaluate the effectiveness of different targeting criteria for each campaign.
             - Consolidated and prepared data into a cohesive and comprehensible form.
@@ -129,7 +129,7 @@ content:
         sub_title: <span style="color:#EBBD14">Specialist</span>
         caption: October 2013 - July 2016
         description: | # this will include new lines to allow paragraphs
-            - Provide text-mining solutions for Antuit-SIMTech Supply Chain Analytics Lab.
+            - Provide <span style="color:#EBBD14">text-mining solutions</span> for Antuit-SIMTech Supply Chain Analytics Lab.
             - Research in data mining for supply chain and manufacturing systems.
   
   - title: Education # Title for the section
