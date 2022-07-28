@@ -90,18 +90,21 @@ content:
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             - Deliver data science solutions to enhance MINDEF/SAF’s decision making in policy, operations and resource management.
+            - Project lead for the development and implementation of data science solutions using techniques such as NLP, Anomaly detection, etc.
+            - Conducted hands-on machine learning session for more than 300 participants at IGNITE Innovation Symposium 2022.
       - layout: left
         title: United Overseas Bank (UOB)
         sub_title: <span style="color:#EBBD14">Vice President, Data Scientist</span>
         caption: November 2018 - April 2022
         description: | # this will include new lines to allow paragraphs
+            - <span style="color:#EBBD14">Received CEO letter of performance recognition (2020).</span>
             - Project lead for the development and implementation of wealth propensity model which <span style="color:#EBBD14">increased conversion rates by 3.7 times</span> and <span style="color:#EBBD14">generated an incremental revenue of more than $13M.</span>
             - Project lead for the development and implementation of content recommender which <span style="color:#EBBD14">improved open rate by 2.6 times and click rate by 1.4 times.</span>
             - Project lead for the development and implementation of wealth propensity model for UOB Thailand which <span style="color:#EBBD14">increased conversion rates by 1.8 times.</span>
             - Actively communicated machine learning concepts and intuitions, ensure analysis and model outputs are understood and useable.
             - Designed experiments to monitor consistency of model performance and identify areas to improve.
             - Worked closely with customer segments team to understand the business, use data across multiple sources to generate insights, drive customer engagement, product usage and acquisition.
-            - <span style="color:#EBBD14">Received CEO letter of performance recognition (2020).</span>
+            - Provided guidance and technical support for multiple interns.
       - layout: left
         title: Prudential Assurance Company Singapore
         sub_title: <span style="color:#EBBD14">Data Scientist</span>
