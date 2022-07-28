@@ -132,9 +132,14 @@ content:
   - title: Certificates # Title for the section
     layout: text # Type of content section (list/text)
     content: |
-      - National University of Singapore (NUS) <span style="color:#EBBD14">Master of Technology in Knowledge Engineering</span> (Jan 2015 – Jun 2017)
-      - National University of Singapore (NUS) <span style="color:#EBBD14">Bachelor of Science in Statistics</span> (Aug 2010 – Jun 2013)
-      
+      - Deep Learning Specialisation
+        - <a href="https://coursera.org/share/8b9f4402dea8e49432fee4065d698c1e">Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization</a>
+        - <a href="https://coursera.org/share/f2a312bc381e3394658742a088d94389">Structuring Machine Learning Projects</a>
+        - <a href="https://coursera.org/share/5eca10a25c5011313069af8733e4f93c">Neural Networks and Deep Learning</a>
+      - SAS
+        - Customised SAS Programming
+        - SAS Macros
+        - SAS SQL   
       
   - title: Publications # Title for the section
     layout: text # Type of content section (list/text)
