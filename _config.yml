@@ -89,7 +89,7 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            - Deliver data science solutions to enhance MINDEF/SAF’s decision making in policy, operations and resource management.
+            - Deliver data science solutions to enhance MINDEF/SAF’s decision making in policy, operations, and resource management.
             - Project lead for the development and implementation of data science solutions using techniques such as NLP, Anomaly detection, etc.
             - Conducted hands-on machine learning session for more than 300 participants at IGNITE Innovation Symposium 2022.
       - layout: left
