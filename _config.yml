@@ -49,7 +49,15 @@ linkedin_username: andyangjunlong
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Passionate data scientist with more than 9 years of experience interpreting large datasets, translating data into actionable business insights and end-to-end predictive modeling.
+  Hi, I am Andy.
+  
+  I am an analytically minded data scientist with more than 9 years of experience collaborating with cross-functional team to solve real-world business problems using data-driven approaches.
+  Bring significant practical experience in end-to-end predictive modeling, interpret large datasets, translate data into actionable business insights.
+
+  Skills: Machine Learning, Statistics, Data Visualisation, Data Wrangling, Descriptive Analysis, ETL
+  Soft Skills: Critical thinking, Research, Collaboration, Time management, Communication
+  Data and Analytics Tools/Languages: SAS, Python, R, SQL, Tableau, QlikSense, Cloudera Data Science Workbench
+  Hadoop Ecosystem: Hive, Impala, Sqoop, PySpark, Oozie, Hue
 
 content:
   #- title: Projects # Title for the section
