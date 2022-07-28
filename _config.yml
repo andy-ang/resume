@@ -126,7 +126,7 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-left
+      - layout: left
         title: National University of Singapore (NUS)
         sub_title: <span style="color:#EBBD14">Master of Technology in Knowledge Engineering</span>
         caption: Jan 2015 – Jun 2017
