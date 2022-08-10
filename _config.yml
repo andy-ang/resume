@@ -141,8 +141,8 @@ content:
   - title: Certifications # Title for the section
     layout: text # Type of content section (list/text)
     content: |
-      - Deep Learning Specialisation
-        - Sequence Models
+      - <a href="https://www.coursera.org/account/accomplishments/specialization/8C2DZQ6XDF37">Deep Learning Specialisation</a>
+        - <a href="https://www.coursera.org/account/accomplishments/verify/MKFLX4AXZRMT">Sequence Models</a>
         - <a href="https://www.coursera.org/account/accomplishments/certificate/4A9LQQRBN9H3">Convolution Neural Networks</a>
         - <a href="https://www.coursera.org/account/accomplishments/certificate/ELZP6GHJFZ6X">Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization</a>
         - <a href="https://www.coursera.org/account/accomplishments/certificate/9CUTMQA6YERM">Structuring Machine Learning Projects</a>
