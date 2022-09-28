@@ -84,7 +84,7 @@ content:
         title: Ministry of Defence (MINDEF)
         #link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Data Science Department<br /> <span style="color:#EBBD14">Data Scientist</span>
+        sub_title: Data Science Department<br /> <span style="color:#EBBD14">Senior Manager, Data Scientist</span>
         caption: April 2022 - Present
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -94,7 +94,7 @@ content:
             - Conducted hands-on machine learning session for more than 300 participants at IGNITE Innovation Symposium 2022.
       - layout: left
         title: United Overseas Bank (UOB)
-        sub_title: Customer Franchise & Business Analytics<br /> <span style="color:#EBBD14">Vice President, Data Scientist</span>
+        sub_title: Customer Franchise & Business Analytics<br /> <span style="color:#EBBD14">Data Scientist, Vice President</span>
         caption: November 2018 - April 2022
         description: | # this will include new lines to allow paragraphs
             - <span style="color:#EBBD14">Received CEO letter of performance recognition (2020).</span>
@@ -107,7 +107,7 @@ content:
             - Provided guidance and technical support for multiple interns.
       - layout: left
         title: Prudential Assurance Company Singapore
-        sub_title: Data & Analytics IT<br /> <span style="color:#EBBD14">Data Scientist</span>
+        sub_title: Data & Analytics IT<br /> <span style="color:#EBBD14">Data Scientist, Manager</span>
         caption: March 2018 - November 2018
         description: | # this will include new lines to allow paragraphs
             - Implemented <span style="color:#EBBD14">customer segmentation engine</span> that group customers into pre-defined microsegments.
@@ -116,7 +116,7 @@ content:
             - Evaluated and improved on existing predictive models for E-claims project.
       - layout: left
         title: Development Bank of Singapore (DBS)
-        sub_title: Financial Planning Group<br /> <span style="color:#EBBD14">Associate, Business Analyst</span>
+        sub_title: Financial Planning Group<br /> <span style="color:#EBBD14">Business Analyst, Associate</span>
         caption: August 2016 - March 2018
         description: | # this will include new lines to allow paragraphs
             - Developed <span style="color:#EBBD14">wealth propensity model</span> for identifying potential investors.
