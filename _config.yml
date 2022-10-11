@@ -142,20 +142,20 @@ content:
   - title: Certifications # Title for the section
     layout: text # Type of content section (list/text)
     content: |
-      - <a href="https://www.coursera.org/account/accomplishments/specialization/8C2DZQ6XDF37">Deep Learning Specialisation</a>
-        - <a href="https://www.coursera.org/account/accomplishments/verify/MKFLX4AXZRMT">Sequence Models</a>
-        - <a href="https://www.coursera.org/account/accomplishments/certificate/4A9LQQRBN9H3">Convolution Neural Networks</a>
-        - <a href="https://www.coursera.org/account/accomplishments/certificate/ELZP6GHJFZ6X">Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization</a>
-        - <a href="https://www.coursera.org/account/accomplishments/certificate/9CUTMQA6YERM">Structuring Machine Learning Projects</a>
-        - <a href="https://www.coursera.org/account/accomplishments/certificate/E6R3YFWH48GV">Neural Networks and Deep Learning</a>
+      - <a href="https://www.coursera.org/account/accomplishments/specialization/8C2DZQ6XDF37">Deep Learning Specialisation (Aug 2022)</a>
+        - <a href="https://www.coursera.org/account/accomplishments/verify/MKFLX4AXZRMT">Sequence Models (Aug 2022)</a>
+        - <a href="https://www.coursera.org/account/accomplishments/certificate/4A9LQQRBN9H3">Convolution Neural Networks (Jul 2022)</a>
+        - <a href="https://www.coursera.org/account/accomplishments/certificate/ELZP6GHJFZ6X">Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization (Jul 2022)</a>
+        - <a href="https://www.coursera.org/account/accomplishments/certificate/9CUTMQA6YERM">Structuring Machine Learning Projects (Jul 2022)</a>
+        - <a href="https://www.coursera.org/account/accomplishments/certificate/E6R3YFWH48GV">Neural Networks and Deep Learning (Jun 2022)</a>
       - Machine Learning Engineering for Production (MLOps) Specialisation
-        - <a href="https://www.coursera.org/account/accomplishments/certificate/QS3UAXC4LJHM">Introduction to Machine Learning in Production</a>
-      - SAS
+        - <a href="https://www.coursera.org/account/accomplishments/certificate/QS3UAXC4LJHM">Introduction to Machine Learning in Production (Aug 2022)</a>
+      - SAS (Aug 2016)
         - Customised SAS Programming
         - SAS Macros
         - SAS SQL   
       - Django for Everybody Specialisation
-       - <a href="https://www.coursera.org/account/accomplishments/certificate/FTFRT699DCB2">Web Applications Technologies and Django</a>
+        - <a href="https://www.coursera.org/account/accomplishments/certificate/FTFRT699DCB2">Web Applications Technologies and Django (Oct 2022)</a>
       
   - title: Publications # Title for the section
     layout: text # Type of content section (list/text)
