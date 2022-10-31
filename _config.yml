@@ -157,7 +157,8 @@ content:
         - SAS SQL   
       - Django for Everybody Specialisation
         - <a href="https://www.coursera.org/account/accomplishments/certificate/FTFRT699DCB2">Web Applications Technologies and Django (Oct 2022)</a>
-      
+        - <a href="https://www.coursera.org/account/accomplishments/certificate/P8ENFCV3RPLN">Building Web Applications in Django (Oct 2022)</a>
+
   - title: Publications # Title for the section
     layout: text # Type of content section (list/text)
     content: | # this will include new lines to allow paragraphs
