@@ -115,7 +115,7 @@ content:
             - Implemented <span style="color:#EBBD14">customer segmentation engine</span> that group customers into pre-defined microsegments.
             - Implemented <span style="color:#EBBD14">next best offer engine</span> for cross selling of insurance products.
             - Developed <span style="color:#EBBD14">propensity to claim model</span> to improve STP rate for underwriting.
-            - Evaluated and improved on existing predictive models for <a href="https://www.todayonline.com/business/prudentials-new-e-claims-platform-speed-processing-time">E-claims project</a>.
+            - Evaluated and improved on existing predictive models for E-claims project.
       - layout: left
         title: Development Bank of Singapore (DBS)
         sub_title: Financial Planning Group<br /> <span style="color:#EBBD14">Business Analyst, Associate</span>
