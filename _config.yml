@@ -155,10 +155,12 @@ content:
         - Customised SAS Programming
         - SAS Macros
         - SAS SQL   
-      - Django for Everybody Specialisation
+      - <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/EXQDU4PB8FY5">Django for Everybody Specialisation (Dec 2022)</a>
+        - <a href="https://www.coursera.org/account/accomplishments/certificate/DVGH6BYDWKJS">Using JavaScript, JQuery, and JSON in Django (Dec 2022)</a>
         - <a href="https://www.coursera.org/account/accomplishments/certificate/MTZEW8RLEZUK">Django Features and Libraries (Nov 2022)</a>
         - <a href="https://www.coursera.org/account/accomplishments/certificate/FTFRT699DCB2">Web Applications Technologies and Django (Oct 2022)</a>
         - <a href="https://www.coursera.org/account/accomplishments/certificate/P8ENFCV3RPLN">Building Web Applications in Django (Oct 2022)</a>
+        
 
   - title: Publications # Title for the section
     layout: text # Type of content section (list/text)
