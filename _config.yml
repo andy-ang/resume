@@ -143,6 +143,7 @@ content:
   - title: Certifications # Title for the section
     layout: text # Type of content section (list/text)
     content: |
+      - <a href="https://www.credly.com/badges/0d8a73c9-a9e2-4c8c-ab0c-0109fbba31d9">AWS Certified Cloud Practitioner (May 2023)</a>
       - <a href="https://www.coursera.org/account/accomplishments/specialization/8C2DZQ6XDF37">Deep Learning Specialisation (Aug 2022)</a>
         - <a href="https://www.coursera.org/account/accomplishments/verify/MKFLX4AXZRMT">Sequence Models (Aug 2022)</a>
         - <a href="https://www.coursera.org/account/accomplishments/certificate/4A9LQQRBN9H3">Convolution Neural Networks (Jul 2022)</a>
