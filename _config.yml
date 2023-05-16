@@ -49,13 +49,13 @@ linkedin_username: andyangjunlong
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  I am an analytically minded data scientist with more than 9 years of experience collaborating with cross-functional teams to solve real-world business problems using data-driven approaches.
-  Bring significant practical experience in end-to-end predictive modeling, interpreting large datasets and translating data into actionable business insights.
+  Experienced data scientist with over 9 years of expertise in utilizing data-driven methodologies to solve real-world business challenges through collaborative efforts with cross-functional teams. 
+  Possess a strong analytical mindset and a proven track record of end-to-end predictive modeling, effectively interpreting extensive datasets, and transforming data into actionable insights that drive business success.
   <br />
   <br />
-  <span style="color:#EBBD14">Skills:</span> *Machine Learning, Statistics, Data Visualisation, Data Wrangling, Descriptive Analysis, ETL* <br />
+  <span style="color:#EBBD14">Technical Skills:</span> *Statistical Analysis, Machine Learning, Statistics, Data Visualisation, Data Wrangling, Data Mining, Descriptive Analysis, ETL, Experimental Design and A/B Testing* <br />
   <span style="color:#EBBD14">Soft Skills:</span> *Critical thinking, Research, Collaboration, Time management, Communication* <br />
-  <span style="color:#EBBD14">Data and Analytics Tools/Languages:</span> *SAS, Python, R, SQL, Tableau, QlikSense, Cloudera Data Science Workbench* <br />
+  <span style="color:#EBBD14">Data and Analytics Tools/Languages:</span> *SAS, Python, R, SQL, Tableau, Qlik Sense, Cloudera Data Science Workbench* <br />
   <span style="color:#EBBD14">Data Science Frameworks:</span> *Scikit-Learn, Tensorflow, Keras, XGBoost, NLTK* <br />
   <span style="color:#EBBD14">Hadoop Ecosystem:</span> *Hive, Impala, Sqoop, PySpark, Oozie, Hue*
 
@@ -91,7 +91,7 @@ content:
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             - Deliver data science solutions to enhance MINDEF/SAF’s decision making in policy, operations, and resource management.
-            - Project lead for the development and implementation of data science solutions using techniques such as NLP, Anomaly detection, etc.
+            - Project lead for the development and implementation of data science solutions, including NLP, anomaly detection, and other methodologies to drive actionable insights and solve complex business challenges.
             - Conducted hands-on machine learning session for more than 300 participants at IGNITE Innovation Symposium 2022.
       - layout: left
         title: United Overseas Bank (UOB)
@@ -99,11 +99,11 @@ content:
         caption: November 2018 - April 2022
         description: | # this will include new lines to allow paragraphs
             - <span style="color:#EBBD14">Received CEO letter of performance recognition (2020).</span>
-            - Project lead for the development and implementation of wealth propensity model which <span style="color:#EBBD14">increased conversion rates by 3.7 times</span> and <span style="color:#EBBD14">generated an incremental revenue of more than $13M.</span>
-            - Project lead for the development and implementation of content recommender which <span style="color:#EBBD14">improved open rate by 2.6 times and click rate by 1.4 times.</span>
-            - Project lead for the development and implementation of wealth propensity model for UOB Thailand which <span style="color:#EBBD14">increased conversion rates by 1.8 times.</span>
+            - Project lead for the <span style="color:#EBBD14">development and implementation of wealth propensity model which increased conversion rates by 3.7 times</span> and <span style="color:#EBBD14">generated an incremental revenue of more than $13M.</span>
+            - Project lead for the <span style="color:#EBBD14">development and implementation of content recommender which improved open rate by 2.6 times and click rate by 1.4 times.</span>
+            - Project lead for the <span style="color:#EBBD14">development and implementation of wealth propensity model for UOB Thailand which increased conversion rates by 1.8 times.</span>
             - <a href="https://www.mas.gov.sg/-/media/MAS-Media-Library/news/media-releases/2022/Veritas-Document-3B---FEAT-Ethics-and-Accountability-Principles-Assessment-Methodology.pdf">UOB’s subject matter expert on customer marketing use case for the development of the Ethics and Accountability Assessment Methodology (MAS-led Veritas Consortium).</a>
-            - Actively communicated machine learning concepts and intuitions, ensure analysis and model outputs are understood and useable.
+            - <span style="color:#EBBD14">Designed, developed, maintained various interactive dashboards</span> using Qlik Sense for business reporting and generating actionable insights toward desired financial outcomes.  
             - Designed experiments to monitor consistency of model performance and identify areas to improve.
             - Worked closely with customer segments team to understand the business, use data across multiple sources to generate insights, drive customer engagement, product usage and acquisition.
             - Provided guidance and technical support for multiple interns.
