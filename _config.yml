@@ -49,11 +49,11 @@ linkedin_username: andyangjunlong
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Experienced data scientist with over 9 years of expertise in utilising data-driven methodologies to solve real-world business challenges through collaborative efforts with cross-functional teams. 
-  Possess a strong analytical mindset and a proven track record of end-to-end predictive modeling, effectively interpreting extensive datasets, and transforming data into actionable insights that drive business success.
+  I am an experienced data scientist with over 10 years of expertise in leveraging data-driven methodologies to tackle real-world business challenges. 
+  My strong analytical mindset and collaborative approach enable me to work effectively with cross-functional teams. I have a proven track record in end-to-end predictive modeling, interpreting extensive datasets and transforming data into actionable insights that drive business success.
   <br />
   <br />
-  <span style="color:#EBBD14">Technical Skills:</span> *Statistical Analysis, Machine Learning, Statistics, Data Visualisation, Data Wrangling, Data Mining, Descriptive Analysis, ETL, Experimental Design and A/B Testing* <br />
+  <span style="color:#EBBD14">Technical Skills:</span> *Statistical Analysis, Machine Learning, Statistics, Data Visualisation, Data Wrangling, Data Mining, Descriptive Analysis, ETL, Experimental Design and A/B Testing, AWS Certified Cloud Practitioner* <br />
   <span style="color:#EBBD14">Soft Skills:</span> *Critical thinking, Research, Collaboration, Time management, Communication* <br />
   <span style="color:#EBBD14">Data and Analytics Tools/Languages:</span> *SAS, Python, R, SQL, Tableau, Qlik Sense, Cloudera Data Science Workbench* <br />
   <span style="color:#EBBD14">Data Science Frameworks:</span> *Scikit-Learn, Tensorflow, Keras, XGBoost, NLTK* <br />
@@ -82,17 +82,31 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: United Overseas Bank (UOB)
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Finance Data Analytics<br /> <span style="color:#EBBD14">Vice President</span>
+        caption: August 2023 - Present
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            - Established knowledge base and developed operating guidelines for selecting optimal enterprise tools, streamlining dashboarding, report extraction, and model building within UOB’s infrastructure.
+            -	Designed and developed sustainable data assets by integrating multiple data sources to enhance ad-hoc analysis and reporting, accelerating turnaround time and minimizing data duplication.
+            -	Developed and maintained guidelines for script development and dataset management, ensuring consistent and reliable data processes within the team.
+            -	Led a small team to spearhead data analysis initiatives, ensuring successful project execution and delivering impactful results.
+      - layout: left
         title: Ministry of Defence (MINDEF)
         #link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Data Science Department<br /> <span style="color:#EBBD14">Data Scientist</span>
-        caption: April 2022 - Present
+        caption: April 2022 - August 2023
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            - Deliver data science solutions to enhance MINDEF/SAF’s decision making in policy, operations, and resource management.
-            - Project lead for the development and implementation of data science solutions, including NLP, anomaly detection, and other methodologies to drive actionable insights and solve complex business challenges.
-            - Conducted hands-on machine learning session for more than 300 participants at IGNITE Innovation Symposium 2022.
+            - Delivered data science solutions to enhance MINDEF/SAF's decision-making in policy, operations, and resource management.
+            - Led development and implementation of data science solutions, including NLP, anomaly detection and policy query engine, to drive actionable insights and solve complex business challenges.
+            - Led a delegation of four to Machine Learning Week 2022, acquiring valuable industry insights into the practical applications of predictive analytics.
+            -	Conducted hands-on machine learning workshop for over 300 participants at IGNITE Innovation Symposium 2022.
       - layout: left
         title: United Overseas Bank (UOB)
         sub_title: Customer Franchise & Business Analytics<br /> <span style="color:#EBBD14">Data Scientist, Vice President</span>
