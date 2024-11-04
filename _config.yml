@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Andy Ang J. L.
-title: Data Scientist
+title: Data Analyst/Scientist
 email: andyangjunlong@outlook.sg
 phone: (+65) 9474 9274
 #website: www.github.com/sproogen/resume-theme
@@ -49,7 +49,7 @@ linkedin_username: andyangjunlong
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  I am an experienced data scientist with over 10 years of expertise in leveraging data-driven methodologies to tackle real-world business challenges. 
+  I am an experienced data analyst/scientist with over 10 years of expertise in leveraging data-driven methodologies to tackle real-world business challenges. 
   My strong analytical mindset and collaborative approach enable me to work effectively with cross-functional teams. I have a proven track record in end-to-end predictive modeling, interpreting extensive datasets and transforming data into actionable insights that drive business success.
   <br />
   <br />
@@ -90,10 +90,10 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            - Established knowledge base and developed operating guidelines for selecting optimal enterprise tools, streamlining dashboarding, report extraction, and model building within UOB’s infrastructure.
-            -	Designed and developed sustainable data assets by integrating multiple data sources to enhance ad-hoc analysis and reporting, accelerating turnaround time and minimizing data duplication.
-            -	Developed and maintained guidelines for script development and dataset management, ensuring consistent and reliable data processes within the team.
-            -	Led a small team to spearhead data analysis initiatives, ensuring successful project execution and delivering impactful results.
+            - Establish a knowledge base and develop operating guidelines for selecting optimal enterprise tools, streamlining dashboarding, report extraction, and model building within UOB’s infrastructure.
+            - Design and develop sustainable data assets by integrating multiple data sources to enhance ad-hoc analysis and reporting, accelerating turnaround time and minimizing data duplication.
+            -	Develop and maintain guidelines for script development and dataset management, ensuring consistent and reliable data processes within the team.
+            -	Lead a team to spearhead data analysis initiatives, ensuring successful project execution and delivering impactful results.
       - layout: left
         title: Ministry of Defence (MINDEF)
         #link: boringcompany.com
