@@ -91,9 +91,9 @@ content:
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             - Establish a knowledge base and develop operating guidelines for selecting optimal enterprise tools, streamlining dashboarding, report extraction, and model building within UOB’s infrastructure.
-            - Design and develop sustainable data assets by integrating multiple data sources to enhance ad-hoc analysis and reporting, accelerating turnaround time and minimizing data duplication.
-            -	Develop and maintain guidelines for script development and dataset management, ensuring consistent and reliable data processes within the team.
-            -	Lead a team to spearhead data analysis initiatives, ensuring successful project execution and delivering impactful results.
+            -	Design and developed scalable data assets by integrating diverse data sources, improving ad-hoc analysis and reporting, and significantly reducing data duplication while accelerating turnaround time.
+            -	Develop and maintain guidelines for script development and dataset management, ensuring consistent and reliable data processes across the team.
+            -	Lead a team in executing data analysis projects, ensuring timely delivery of actionable insights and measurable business impact.
       - layout: left
         title: Ministry of Defence (MINDEF)
         #link: boringcompany.com
@@ -103,10 +103,10 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            - Delivered data science solutions to enhance MINDEF/SAF's decision-making in policy, operations, and resource management.
-            - Led development and implementation of data science solutions, including NLP, anomaly detection and policy query engine, to drive actionable insights and solve complex business challenges.
-            - Led a delegation of four to Machine Learning Week 2022, acquiring valuable industry insights into the practical applications of predictive analytics.
-            -	Conducted hands-on machine learning workshop for over 300 participants at IGNITE Innovation Symposium 2022.
+            - Delivered data science solutions that enhanced MINDEF/SAF's decision-making capabilities in policy formulation, operational efficiency, and resource management.
+            -	Spearheaded the development and implementation of advanced data science solutions, including NLP models, anomaly detection systems, and a policy query engine, to address complex business challenges and generate actionable insights.
+            -	Led a delegation of four to Machine Learning Week 2022, gaining industry-leading insights into the practical applications of predictive analytics and fostering professional growth.
+            -	Conducted a hands-on machine learning workshop for over 300 participants at IGNITE Innovation Symposium 2022, empowering attendees with practical machine learning knowledge and skills.
       - layout: left
         title: United Overseas Bank (UOB)
         sub_title: Customer Franchise & Business Analytics<br /> <span style="color:#EBBD14">Data Scientist, Vice President</span>
