@@ -32,5 +32,10 @@ All asset paths are relative, so both options work.
 - Copy and structure: `index.html`
 - Visual system: `css/styles.css`
 - Scroll reveal: `js/main.js`
+- Chat widget: `js/chat.js`, `js/config.js`
 - Photo: `images/andy-ang.png`
 - Favicon: `images/favicon.svg` (PNG fallback: `images/favicon.png`)
+
+## Chat assistant
+
+The chat widget connects to the CareerTwin backend on Hugging Face Spaces (`js/config.js`). The backend lives in a separate repo at `careertwin/`. When you update resume content in `index.html`, also update `careertwin/input/summary.txt` so the assistant stays in sync.
