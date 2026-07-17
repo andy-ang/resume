@@ -1,11 +1,7 @@
 import { CHAT_API, SPACE_URL } from "./config.js";
 
-const GRADIO_CLIENT_URL =
-  "https://cdn.jsdelivr.net/npm/@gradio/client@1.13.3/dist/index.min.js";
-
 (() => {
-  const CONNECT_TIMEOUT = 90000;
-  const PREDICT_TIMEOUT = 60000;
+  const PREDICT_TIMEOUT = 90000;
 
   const fab = document.getElementById("chat-fab");
   const panel = document.getElementById("chat-panel");
@@ -20,16 +16,12 @@ const GRADIO_CLIENT_URL =
   }
 
   let history = [];
-  let client = null;
-  let connecting = false;
+  let busy = false;
 
   function toggle() {
     const isOpen = panel.classList.toggle("is-open");
     fab.setAttribute("aria-expanded", String(isOpen));
-    if (isOpen) {
-      input.focus();
-      if (!client && !connecting) connect();
-    }
+    if (isOpen) input.focus();
   }
 
   fab.addEventListener("click", toggle);
@@ -38,38 +30,6 @@ const GRADIO_CLIENT_URL =
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && panel.classList.contains("is-open")) toggle();
   });
-
-  async function connect() {
-    connecting = true;
-    setStatus("Connecting to assistant\u2026");
-
-    try {
-      const { Client } = await import(GRADIO_CLIENT_URL);
-
-      const controller = new AbortController();
-      const timer = setTimeout(() => controller.abort(), CONNECT_TIMEOUT);
-
-      client = await Client.connect(SPACE_URL, {
-        events: { signal: controller.signal },
-      }).catch((err) => {
-        if (controller.signal.aborted) {
-          throw new Error("Connection timed out. The assistant may be waking up.");
-        }
-        throw err;
-      });
-
-      clearTimeout(timer);
-      setStatus("");
-    } catch (err) {
-      console.error("Chat connect failed:", err);
-      setStatus("Could not reach assistant. Try again shortly.");
-      connecting = false;
-      client = null;
-      return;
-    }
-
-    connecting = false;
-  }
 
   function setStatus(msg) {
     status.textContent = msg;
@@ -89,83 +49,101 @@ const GRADIO_CLIENT_URL =
     form.querySelector("button").disabled = !enabled;
   }
 
-  function extractReply(result) {
-    const payload = result?.data ?? result;
-
-    if (typeof payload === "string") {
-      return payload;
-    }
-
+  function extractReply(payload) {
+    if (typeof payload === "string") return payload;
     if (Array.isArray(payload)) {
       const first = payload[0];
-      if (typeof first === "string") {
-        return first;
-      }
+      if (typeof first === "string") return first;
       if (first && typeof first === "object") {
         return first.content ?? first.text ?? JSON.stringify(first);
       }
       return payload.filter(Boolean).join("\n");
     }
-
     if (payload && typeof payload === "object") {
       return payload.content ?? payload.text ?? JSON.stringify(payload);
     }
-
     return "";
+  }
+
+  function parseSseComplete(raw) {
+    let lastData = null;
+    let sawError = false;
+
+    for (const line of raw.split(/\r?\n/)) {
+      if (line.startsWith("event: error")) {
+        sawError = true;
+      }
+      if (line.startsWith("data: ")) {
+        const body = line.slice(6).trim();
+        if (!body || body === "null") continue;
+        try {
+          lastData = JSON.parse(body);
+        } catch {
+          lastData = body;
+        }
+      }
+    }
+
+    if (sawError && lastData == null) {
+      throw new Error("Assistant returned an error");
+    }
+    return lastData;
+  }
+
+  async function callResumeChat(message, conversationHistory) {
+    const endpoint = CHAT_API.startsWith("/") ? CHAT_API : `/${CHAT_API}`;
+    const callUrl = `${SPACE_URL}/gradio_api/call${endpoint}`;
+
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), PREDICT_TIMEOUT);
+
+    try {
+      const startRes = await fetch(callUrl, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ data: [message, conversationHistory] }),
+        signal: controller.signal,
+      });
+
+      if (!startRes.ok) {
+        throw new Error(`Start failed: ${startRes.status}`);
+      }
+
+      const { event_id: eventId } = await startRes.json();
+      if (!eventId) throw new Error("Missing event_id");
+
+      const streamRes = await fetch(`${callUrl}/${eventId}`, {
+        signal: controller.signal,
+      });
+
+      if (!streamRes.ok) {
+        throw new Error(`Stream failed: ${streamRes.status}`);
+      }
+
+      const raw = await streamRes.text();
+      return parseSseComplete(raw);
+    } finally {
+      clearTimeout(timer);
+    }
   }
 
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
+    if (busy) return;
+
     const text = input.value.trim();
     if (!text) return;
 
     input.value = "";
     appendMessage("user", text);
+    busy = true;
     setInputEnabled(false);
     setStatus("Thinking\u2026");
 
-    if (!client) {
-      await connect();
-      if (!client) {
-        appendMessage(
-          "assistant",
-          "Sorry, I could not connect to the assistant. Please try again in a moment or email andyangjunlong@outlook.sg."
-        );
-        setStatus("");
-        setInputEnabled(true);
-        return;
-      }
-    }
-
     try {
-      let result;
-      try {
-        result = await Promise.race([
-          client.predict(CHAT_API, {
-            message: text,
-            history,
-          }),
-          new Promise((_, reject) =>
-            setTimeout(() => reject(new Error("timeout")), PREDICT_TIMEOUT)
-          ),
-        ]);
-      } catch (primaryErr) {
-        if (CHAT_API !== "/chat") {
-          result = await Promise.race([
-            client.predict("/chat", { message: text }),
-            new Promise((_, reject) =>
-              setTimeout(() => reject(new Error("timeout")), PREDICT_TIMEOUT)
-            ),
-          ]);
-        } else {
-          throw primaryErr;
-        }
-      }
-
+      const result = await callResumeChat(text, history);
       const replyText = extractReply(result).trim();
-      if (!replyText) {
-        throw new Error("Empty response");
-      }
+      if (!replyText) throw new Error("Empty response");
 
       history.push({ role: "user", content: text });
       history.push({ role: "assistant", content: replyText });
@@ -173,15 +151,18 @@ const GRADIO_CLIENT_URL =
       appendMessage("assistant", replyText);
       setStatus("");
     } catch (err) {
-      console.error("Chat predict failed:", err);
+      console.error("Chat failed:", err);
+      const timedOut = err?.name === "AbortError";
       appendMessage(
         "assistant",
-        "Sorry, something went wrong. Please try again or email andyangjunlong@outlook.sg."
+        timedOut
+          ? "The assistant is taking longer than usual (it may be waking up). Please try again in a moment."
+          : "Sorry, something went wrong. Please try again or email andyangjunlong@outlook.sg."
       );
       setStatus("");
-      client = null;
     }
 
+    busy = false;
     setInputEnabled(true);
     input.focus();
   });
