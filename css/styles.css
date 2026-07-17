@@ -151,7 +151,7 @@ h3 {
   position: relative;
   display: grid;
   align-items: stretch;
-  overflow: hidden;
+  overflow: visible;
   border-bottom: 1px solid var(--rule);
 }
 
@@ -180,12 +180,12 @@ h3 {
 
 .hero-identity {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto minmax(0, 1fr);
   grid-template-rows: auto auto auto;
   column-gap: 1.875rem;
   row-gap: clamp(0.45rem, 1.1vw, 0.65rem);
   align-items: center;
-  width: max-content;
+  width: min(100%, max-content);
   max-width: 100%;
   margin-inline: auto;
 }
@@ -226,6 +226,8 @@ h3 {
   line-height: 1.1;
   color: var(--paper);
   margin: 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .hero-title {
@@ -238,6 +240,7 @@ h3 {
   text-transform: uppercase;
   color: var(--brass);
   line-height: 1.2;
+  min-width: 0;
 }
 
 .hero-contact {
@@ -254,12 +257,18 @@ h3 {
   padding: 0;
   font-size: clamp(1.425rem, 2.25vw, 1.575rem);
   line-height: 1.2;
+  min-width: 0;
+}
+
+.hero-contact li {
+  min-width: 0;
 }
 
 .hero-contact a {
   color: rgba(247, 245, 241, 0.92);
   text-decoration: none;
   border-bottom: 1px solid transparent;
+  overflow-wrap: anywhere;
 }
 
 .hero-contact a:hover,
@@ -628,8 +637,49 @@ h3 {
 }
 
 @media (max-width: 719px) {
+  .hero-inner {
+    padding: 5.25rem 0 2rem;
+    align-items: stretch;
+  }
+
+  .hero-identity {
+    width: 100%;
+    column-gap: 0.85rem;
+    row-gap: 0.35rem;
+  }
+
+  .hero-portrait-wrap {
+    align-self: center;
+  }
+
+  .hero-brand {
+    font-size: clamp(1.5rem, 7.5vw, 2.1rem);
+    line-height: 1.12;
+  }
+
+  .hero-title {
+    font-size: clamp(0.72rem, 3.1vw, 0.9rem);
+    letter-spacing: 0.03em;
+  }
+
+  .hero-contact {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+    font-size: clamp(0.78rem, 3.4vw, 0.95rem);
+  }
+
+  .hero-nav {
+    padding: 0.65rem 0;
+  }
+
+  .hero-nav .wrap {
+    justify-content: center;
+  }
+
   .hero-nav ul {
-    gap: 0.35rem 0.85rem;
-    font-size: 0.72rem;
+    justify-content: center;
+    gap: 0.35rem 0.65rem;
+    font-size: 0.68rem;
   }
 }

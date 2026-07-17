@@ -10,15 +10,27 @@
     if (!identity || !wrap || !brand || !contact) return;
 
     const textHeight = contact.offsetTop + contact.offsetHeight - brand.offsetTop;
-    if (textHeight > 0) {
-      identity.style.setProperty("--hero-portrait-size", `${textHeight}px`);
+    if (textHeight <= 0) return;
+
+    let size = textHeight;
+    const isMobile = window.matchMedia("(max-width: 719px)").matches;
+    if (isMobile) {
+      size = Math.min(size, window.innerWidth * 0.34, 108);
     }
+
+    identity.style.setProperty("--hero-portrait-size", `${size}px`);
   };
 
   syncHeroPortrait();
   window.addEventListener("resize", syncHeroPortrait);
   if (document.fonts?.ready) {
     document.fonts.ready.then(syncHeroPortrait);
+  }
+
+  const identity = document.querySelector(".hero-identity");
+  if (identity && "ResizeObserver" in window) {
+    const observer = new ResizeObserver(syncHeroPortrait);
+    observer.observe(identity);
   }
 
   const targets = document.querySelectorAll(".job, .reveal");
