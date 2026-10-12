@@ -1,6 +1,6 @@
 # Andy Ang — Resume Site
 
-Professional single-page resume for GitHub Pages. Custom design (not based on sproogen/resume-theme).
+Professional single-page resume for GitHub Pages. Custom design.
 
 ## Local preview
 
